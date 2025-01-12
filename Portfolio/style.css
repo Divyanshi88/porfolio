@@ -1,0 +1,285 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #ff66b2; /* Pink text */
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #121212; /* Fallback color */
+    color: #ff66b2;
+    padding: 150px 0;
+    text-align: center;
+    background-image: url('images/image6.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff66b2; /* Pink heading */
+}
+
+/* About Section */
+#about img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+/* Social Icons */
+.social-icons a {
+    color: #ff66b2; /* Pink */
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #800080; /* Purple on hover */
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero-heading {
+        font-size: 2.5rem;
+    }
+
+    #about img {
+        width: 150px;
+    }
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #800080; /* Purple background */
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.scroll-to-top:hover {
+    background-color: #ff66b2; /* Pink on hover */
+}
+
+/* Carousel Item Styling */
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Set fixed height for the carousel item */
+}
+
+.card-img-top {
+    width: auto; /* Maintain aspect ratio */
+    max-width: 90%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+/* Carousel Controls (Next and Prev buttons) */
+.carousel-control-prev, .carousel-control-next {
+    background-color: #121212 !important; /* Black background */
+    border-radius: 50%;
+    width: 30px !important; 
+    height: 30px !important; 
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+/* Carousel Icons (Next and Prev) */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: white !important; /* White arrow color */
+    width: 15px !important;
+    height: 15px !important;
+}
+/* Learn More Section */
+#learn-more {
+    background: linear-gradient(135deg, #121212, #800080, #ff66b2); /* Gradient from black to purple to pink */
+    color: white; /* White text */
+    padding: 60px 0;
+}
+
+#learn-more h2, #learn-more h3 {
+    color: #ff66b2; /* Pink color for headers */
+}
+
+#learn-more p, #learn-more li {
+    color: #fff; /* White text for paragraphs and list items */
+}
+
+#learn-more a {
+    color: #ff66b2; /* Pink links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#learn-more a:hover {
+    color: #800080; /* Purple on hover */
+}
+
+#learn-more .row {
+    margin-top: 30px;
+}
+
+/* Adjust for mobile */
+@media (max-width: 768px) {
+    #learn-more {
+        padding: 40px 0;
+    }
+}
+/* About Section */
+#about {
+    background: linear-gradient(135deg, #121212, #800080, #ff66b2); /* Gradient from black to purple to pink */
+    color: white; /* White text */
+    padding: 60px 0;
+}
+
+#about h2 {
+    color: #ff66b2; /* Pink heading */
+}
+
+#about p {
+    color: #fff; /* White paragraph text */
+}
+
+#about img {
+    border: 5px solid #ff66b2; /* Pink border for the image */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Add shadow for image */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #about {
+        padding: 40px 0;
+    }
+}
+/* Projects Section */
+#projects {
+    background-color: #121212; /* Dark background for the section */
+    color: #ff66b2; /* Pink text */
+    padding: 50px 0;
+}
+
+/* Carousel Items */
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Fixed height for carousel items */
+}
+
+.card {
+    background-color: #1a1a1a; /* Dark background for the card */
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.card-img-top {
+    width: 100%; /* Ensure the image takes up full width */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    max-height: 300px; /* Limit the height for a more uniform layout */
+    object-fit: contain; /* Adjusts image size to fit container, without cropping */
+    transition: opacity 0.3s ease;
+}
+
+
+.card-body {
+    padding: 20px;
+    background-color: #121212; /* Dark background for the body */
+    color: white; /* White text inside the card */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ff66b2; /* Pink title */
+}
+
+.card-text {
+    color: #d3d3d3; /* Light grey text for description */
+}
+
+/* Carousel Controls */
+.carousel-control-prev, .carousel-control-next {
+    background-color: #800080 !important; /* Purple background */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: white !important; /* White arrow color */
+}
+
+/* Active Carousel Item Indicator */
+.carousel-indicators li {
+    background-color: #ff66b2; /* Pink indicator color */
+}
+
+.carousel-indicators .active {
+    background-color: #800080; /* Purple active indicator color */
+}
+/* Contact Section */
+#contact {
+    background-color: #121212; /* Dark background */
+    color: #ff66b2; /* Pink text */
+    padding: 50px 0;
+}
+
+#contact h2 {
+    color: #ff66b2; /* Pink heading */
+}
+
+#contact p {
+    color: #d3d3d3; /* Lighter gray text for the paragraphs */
+}
+
+#contact a {
+    color: #ff66b2; /* Pink links */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #800080; /* Purple on hover */
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Ensure proper padding */
+#contact .container {
+    padding: 0 20px;
+}
+
+/* Contact Section Layout */
+#contact p {
+    font-size: 1.1rem;
+}
+
+#contact a {
+    font-weight: bold;
+}

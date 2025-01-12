@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divayanshi Sharma - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1>Divayanshi Sharma - Portfolio</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section text-center text-white d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Discover my work and skills as an aspiring Data Analyst in the beauty and skincare industry.</p>
+            <a class="btn btn-primary mt-3" href="#learn-more">Learn More</a>
+        </div>
+    </section>
+    
+    
+
+    <section id="learn-more" class="section bg-light text-center py-5">
+        <div class="container">
+            <h2>Learn More</h2>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h3>Professional Background</h3>
+                    <p>I am an aspiring Data Analyst with a strong foundation in Data Science. I have a passion for utilizing data-driven insights to transform the beauty and skincare industry. I aim to leverage my analytical skills and technical expertise to drive impactful business decisions.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Skills & Achievements</h3>
+                    <ul class="list-unstyled">
+                        <li><strong>Skill 1:</strong> Python, Machine Learning, Data Analysis, MySQL</li>
+                        <li><strong>Achievement 1:</strong> 1st Position in Unicel Chabi Yan2 Ideathon</li>
+                        <li><strong>Achievement 2:</strong> Research paper titled "Enhancing Face Detection in Low-Light Conditions"</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h3>Career Journey</h3>
+                    <p>My career journey began with a keen interest in Data Science during my B.Tech. Since then, I have worked on various projects involving machine learning and data analytics, continuously honing my skills to better understand and solve real-world problems.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Projects & Blog</h3>
+                    <p>Check out my <a href="#projects">projects</a> to see some of the work I have done. I also write about my experiences and insights on my <a href="your-blog-url">blog</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section bg-light text-center py-5">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio website. I am an aspiring Data Analyst with experience in Data Science and a passion for transforming the beauty and skincare industry through data-driven insights.</p>
+            <img src="images/image1.png" alt="About Me Image" class="img-fluid rounded-circle mt-4" width="200">
+        </div>
+    </section>
+
+    <section id="projects" class="section text-center py-5">
+        <div class="container">
+            <h2>Projects</h2>
+            <div id="projectsCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Project 1 -->
+                    <div class="carousel-item active">
+                        <div class="card mb-3">
+                            <img src="images/IMAGE3.png" class="card-img-top" alt="Project 1 Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Classifying Fake News Articles</h5>
+                                <p class="card-text">Leveraged the WELFake dataset to build a classification model with 90% accuracy using TF-IDF vectorization and logistic regression.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="carousel-item">
+                        <div class="card mb-3">
+                            <img src="images/image4.png" class="card-img-top" alt="Project 2 Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Central Platform for High Court Judgments</h5>
+                                <p class="card-text">Designed a centralized web platform to simplify access to high court judgments, addressing the challenges of multiple portals for different courts.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="carousel-item">
+                        <div class="card mb-3">
+                            <img src="images/image5.jpg" class="card-img-top" alt="Project 3 Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Customer Segmentation Project</h5>
+                                <p class="card-text">Developing a machine learning model for customer segmentation using clustering algorithms, focusing on customer behavior data for targeted marketing strategies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="skills" class="section bg-light text-center py-5">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h3>Technical Skills</h3>
+                    <ul class="list-unstyled">
+                        <li><strong>Programming Languages:</strong> Python, SQL</li>
+                        <li><strong>Data Analysis & Visualization:</strong> Pandas, NumPy, Matplotlib, Seaborn, Tableau</li>
+                        <li><strong>Machine Learning:</strong> Supervised Learning (Logistic Regression, Decision Trees, SVM), Unsupervised Learning (K-Means, PCA), Deep Learning (ANN, CNN)</li>
+                        <li><strong>Data Management:</strong> MySQL, PostgreSQL, NoSQL (MongoDB)</li>
+                        <li><strong>Big Data Technologies:</strong> Apache Hadoop, Apache Spark, Hive, Pig</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Professional Competencies</h3>
+                    <ul class="list-unstyled">
+                        <li><strong>Problem Solving:</strong> Strong analytical and problem-solving abilities, applying data-driven solutions to complex business problems.</li>
+                        <li><strong>Data-Driven Decision Making:</strong> Ability to transform raw data into actionable insights for business intelligence and strategic planning.</li>
+                        <li><strong>Data Preprocessing & Cleaning:</strong> Expertise in cleaning and transforming data for accurate analysis and model training.</li>
+                        <li><strong>Collaboration & Teamwork:</strong> Experienced in working within cross-functional teams to deliver projects on time, with an ability to communicate technical concepts to non-technical stakeholders.</li>
+                        <li><strong>Continuous Learning:</strong> Passionate about staying up-to-date with the latest trends in Data Science, Machine Learning, and Big Data technologies.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="section text-center py-5">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>You can reach me at <a href="mailto:e22cseu1085@bennett.edu.in">e22cseu1085@bennett.edu.in</a> 
+            <p>Visit my LinkedIn: <a href="https://www.linkedin.com/in/divyanshi-sharma-a71a4825a/" target="_blank">www.linkedin.com/in/divyanshi-sharma-a71a4825a/</a></p>
+            <p>Check out my GitHub: <a href="https://github.com/Divyanshi88" target="_blank">github.com/Divyanshi88</a></p>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Divayanshi Sharma</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+ 
